@@ -7,4 +7,5 @@ This code directly supports my master's thesis research on how non-classical (sq
 
 # Physical Model
 The system is governed by the open Tavis-Cummings / Dicke Hamiltonian:
+
 $$H = \omega_a \, a^\dagger a + \omega_0 \, c^\dagger c + \lambda (a^\dagger + a)(c^\dagger f + f \, c)$$
