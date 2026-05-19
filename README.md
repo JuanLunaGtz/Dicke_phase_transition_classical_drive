@@ -8,4 +8,4 @@ This code directly supports my master's thesis research on how non-classical (sq
 # Physical Model
 The system is governed by the open Tavis-Cummings / Dicke Hamiltonian:
 
-$$\hat{H} = \omega_a \hat{a}^\dagger \hat{a} + \omega_0 c^\dagger c + \lambda (a^\dagger + a)(c^\dagger f + f c)$$
+$$\hat{H} = \omega_a \hat{a}^\dagger \hat{a} + \omega_0 \hat{c}^\dagger \hat{c} + \lambda (\hat{a}^\dagger + \hat{a})(\hat{c}^\dagger f(\hat{n}) + f(\hat{n}) \hat{c})$$
