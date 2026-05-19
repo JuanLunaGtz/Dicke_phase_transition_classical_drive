@@ -15,4 +15,4 @@ with cavity photon loss described by the Lindblad master equation:
 $$\frac{d\hat{\rho}}{dt} = -i[\hat{H},\hat{\rho}] + \kappa \left( \hat{a} \hat{\rho} \hat{a}^\dagger - \tfrac{1}{2} \hat{a}^\dagger \hat{a} \hat{\rho} - \tfrac{1}{2} \hat{\rho} \hat{a}^\dagger \hat{a} \right)$$
 
 The classical critical coupling in the thermodynamic limit is:
-$$\lambda_c = \frac{\sqrt{\omega_a^2 + \frac{\kappa^2}{4}}\sqrt{\omega_0}}{2}$$​​
+$$\lambda_c = \sqrt{\frac{(\omega_a^2 + \kappa^2)\omega_0}{4\omega}}$$​​
