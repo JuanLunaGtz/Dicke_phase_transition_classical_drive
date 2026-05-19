@@ -9,3 +9,10 @@ This code directly supports my master's thesis research on how non-classical (sq
 The system is governed by the open Tavis-Cummings / Dicke Hamiltonian:
 
 $$\hat{H} = \omega_a \hat{a}^\dagger \hat{a} + \omega_0 \hat{c}^\dagger \hat{c} + \lambda (\hat{a}^\dagger + \hat{a})(\hat{c}^\dagger f(\hat{n}) + f(\hat{n}) \hat{c})$$
+
+with cavity photon loss described by the Lindblad master equation:
+
+$$\frac{d\rho}{dt} = -i[\hat{H},\hat{\rho}] + \kappa \left( a \rho a^\dagger - \tfrac{1}{2} a^\dagger a \rho - \tfrac{1}{2} \rho a^\dagger a \right)$$
+
+The classical critical coupling in the thermodynamic limit is:
+λc=ωa2+κ2/4⋅ω02\lambda_c = \frac{\sqrt{\omega_a^2 + \kappa^2/4} \cdot \sqrt{\omega_0}}{2}λc​=2ωa2​+κ2/4​⋅ω0​​​
