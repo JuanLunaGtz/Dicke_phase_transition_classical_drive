@@ -17,6 +17,19 @@ $$\frac{d\hat{\rho}}{dt} = -i[\hat{H},\hat{\rho}] + \kappa \left( \hat{a} \hat{\
 The classical critical coupling in the thermodynamic limit is:
 $$\lambda_c = \sqrt{\frac{(\omega_a^2 + \kappa^2)\omega_0}{4\omega_a}}$$
 
+## Method
+ 
+The simulation uses a **semi-classical expansion combined with 2nd-order cumulant truncation**:
+ 
+| Step | Technique | Purpose |
+|------|-----------|---------|
+| 1 | Mean-field displacement: $a = \sqrt{N}\alpha + \delta a$ | Separate macroscopic order parameter from quantum noise |
+| 2 | Holstein-Primakoff expansion of atomic inversion | Enforce spin constraint $\|\gamma\|^2 \leq 1$ perturbatively in $1/N$ |
+| 3 | Cumulant truncation at 2nd order | Close the hierarchy of moment equations |
+| 4 | Symbolic EOM generation via `QuantumCumulants.jl` | Derive all equations of motion automatically from the Hamiltonian |
+| 5 | Real/imaginary splitting into `ModelingToolkit.jl` ODESystem | Compile to efficient native code |
+| 6 | Adiabatic sweep + stiff ODE integration | Trace the physical branch of the transition for each $N$ |
+
 
 # Results
 The simulation produces a three-panel figure showing, as a function of λ\lambda
