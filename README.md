@@ -18,17 +18,12 @@ The classical critical coupling in the thermodynamic limit is:
 $$\lambda_c = \sqrt{\frac{(\omega_a^2 + \kappa^2)\omega_0}{4\omega_a}}$$
 
 
-Results
+# Results
 The simulation produces a three-panel figure showing, as a function of λ\lambda
 λ:
 
-∣α∣2|\alpha|^2
-∣α∣2 — cavity mean-field occupation (order parameter)
-∣γ∣2|\gamma|^2
-∣γ∣2 — atomic mean-field occupation
-⟨δa†δa⟩/N\langle \delta a^\dagger \delta a \rangle / N
-⟨δa†δa⟩/N — normalized photon number fluctuations
+$|\alpha|^2$ — cavity mean-field occupation (order parameter)
+$|\gamma|^2$ — atomic mean-field occupation
+$\langle \delta a^\dagger \delta a \rangle / N$ — normalized photon number fluctuations
 
-Each quantity is shown for N∈{10,50,500,1000}N \in \{10, 50, 500, 1000\}
-N∈{10,50,500,1000}, illustrating the convergence to the thermodynamic limit and the finite-NN
-N rounding of the critical point.​​
+Each quantity is shown for $N \in \{10, 50, 500, 1000\}$, illustrating the convergence to the thermodynamic limit and the finite-N rounding of the critical point.​​
