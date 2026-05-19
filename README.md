@@ -32,9 +32,7 @@ The simulation uses a semi-classical expansion combined with 2nd-order cumulant 
 
 
 # Results
-The simulation produces a three-panel figure showing, as a function of λ\lambda
-λ: $|\alpha|^2$ — cavity mean-field occupation (order parameter), $|\gamma|^2$ — atomic mean-field occupation, and
-$\langle \delta a^\dagger \delta a \rangle / N$ — normalized photon number fluctuations.
+The simulation produces a three-panel figure showing, as a function of λ: $|\alpha|^2$ — cavity mean-field occupation (order parameter), $|\gamma|^2$ — atomic mean-field occupation, and $\langle \delta a^\dagger \delta a \rangle / N$ — normalized photon number fluctuations.
 
 Each quantity is shown for $N \in \{10, 50, 500, 1000\}$, illustrating the convergence to the thermodynamic limit and the finite-N rounding of the critical point.​
 
