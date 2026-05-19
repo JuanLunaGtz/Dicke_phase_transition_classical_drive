@@ -15,4 +15,20 @@ with cavity photon loss described by the Lindblad master equation:
 $$\frac{d\hat{\rho}}{dt} = -i[\hat{H},\hat{\rho}] + \kappa \left( \hat{a} \hat{\rho} \hat{a}^\dagger - \tfrac{1}{2} \hat{a}^\dagger \hat{a} \hat{\rho} - \tfrac{1}{2} \hat{\rho} \hat{a}^\dagger \hat{a} \right)$$
 
 The classical critical coupling in the thermodynamic limit is:
-$$\lambda_c = \sqrt{\frac{(\omega_a^2 + \kappa^2)\omega_0}{4\omega}}$$​​
+$$\lambda_c = \sqrt{\frac{(\omega_a^2 + \kappa^2)\omega_0}{4\omega_a}}$$
+
+
+Results
+The simulation produces a three-panel figure showing, as a function of λ\lambda
+λ:
+
+∣α∣2|\alpha|^2
+∣α∣2 — cavity mean-field occupation (order parameter)
+∣γ∣2|\gamma|^2
+∣γ∣2 — atomic mean-field occupation
+⟨δa†δa⟩/N\langle \delta a^\dagger \delta a \rangle / N
+⟨δa†δa⟩/N — normalized photon number fluctuations
+
+Each quantity is shown for N∈{10,50,500,1000}N \in \{10, 50, 500, 1000\}
+N∈{10,50,500,1000}, illustrating the convergence to the thermodynamic limit and the finite-NN
+N rounding of the critical point.​​
