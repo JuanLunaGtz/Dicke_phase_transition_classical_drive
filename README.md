@@ -19,7 +19,7 @@ $$\lambda_c = \sqrt{\frac{(\omega_a^2 + \kappa^2)\omega_0}{4\omega_a}}$$
 
 ## Method
  
-The simulation uses a **semi-classical expansion combined with 2nd-order cumulant truncation**:
+The simulation uses a semi-classical expansion combined with 2nd-order cumulant truncation:
  
 | Step | Technique | Purpose |
 |------|-----------|---------|
@@ -36,4 +36,26 @@ The simulation produces a three-panel figure showing, as a function of λ\lambda
 λ: $|\alpha|^2$ — cavity mean-field occupation (order parameter), $|\gamma|^2$ — atomic mean-field occupation, and
 $\langle \delta a^\dagger \delta a \rangle / N$ — normalized photon number fluctuations.
 
-Each quantity is shown for $N \in \{10, 50, 500, 1000\}$, illustrating the convergence to the thermodynamic limit and the finite-N rounding of the critical point.​​
+Each quantity is shown for $N \in \{10, 50, 500, 1000\}$, illustrating the convergence to the thermodynamic limit and the finite-N rounding of the critical point.​
+
+## Dependencies
+ 
+Install all dependencies from the Julia REPL:
+ 
+```julia
+using Pkg
+Pkg.add([
+    "QuantumCumulants",
+    "ModelingToolkit",
+    "OrdinaryDiffEq",
+    "Plots",
+    "Latexify"
+])
+```
+
+## References
+ 
+- Dicke, R.H. (1954). *Coherence in spontaneous radiation processes*. Phys. Rev. **93**, 99.
+- Emary, C. & Brandes, T. (2003). *Chaos and the quantum phase transition in the Dicke model*. Phys. Rev. E **67**, 066203.
+- Kirton, P. et al. (2019). *Introduction to the Dicke Model*. Adv. Quantum Technol. **2**, 1800043.
+- Plankensteiner, D. et al. (2022). *QuantumCumulants.jl*. Quantum **6**, 617.​
